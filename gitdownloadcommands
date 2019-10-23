@@ -1,0 +1,70 @@
+    1  suddo apt-get update
+    2  sudo apt-get update
+    3  sudo apt-get install -y
+    4  sudo apt-get install git -y
+    5  git --version
+    6  touch f1 f2 f3 f4 f5
+    7  git status
+    8  git init
+    9  git status
+   10  mkdir git prctice
+   11  ls
+   12  rm git
+   13  rm -f git/
+   14  rm -rf git/
+   15  ls
+   16  cd prctice/
+   17  git init
+   18  touch file1 file2 file3 file4
+   19  git status
+   20  git add .
+   21  git status
+   22  touch file5
+   23  git add file5
+   24  git status
+   25  touch f6
+   26  git status
+   27  git commit -m "1st commit"
+   28  git status
+   29  git log --oneline
+   30  ls
+   31  git log
+   32  git status
+   33  git add f6
+   34  git status
+   35  git commit -m "2nd commit"
+   36  git status
+   37  git log
+   38  ls
+   39  cd github/
+   40  cd practice/
+   41  git checkout remotes/origin/master
+   42  cat file1
+   43  ls
+   44  git status
+   45  git log --oneline
+   46  tree
+   47  sudo apt-get install tree
+   48  git tree 82e8c10
+   49  git status
+   50  git log --oneline
+   51  git log
+   52  tree 82e8c105ff71c5a11aede473a6284a8464ef52ff
+   53  ls
+   54  clear
+   55  cat file1
+   56  git checkout master
+   57  ls
+   58  cat file1
+   59  git merge remotes/origin/master
+   60  cat file1
+   61  ls
+   62  cat file2
+   63  git pull
+   64  cat file2
+   65  ls
+   66  git branch
+   67  git branch -a
+   68  history
+   69  history >> git download commands
+   70  history >> gitdownloadcommands
